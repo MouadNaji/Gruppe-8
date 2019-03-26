@@ -319,6 +319,9 @@ figcaption {
 
 /*************************************gammelmand****************************/
 /*************************************gammeldame****************************/
+buttonen{
+   cursor: pointer;
+}
 #gammeldame {
     width: 100%;
     background-color: #414B5A;
