@@ -92,3 +92,63 @@
 
  // Set up default settings
  setPieChart('asia');
+
+
+
+
+
+
+
+
+
+ let retter = [
+     {
+         "navn": "Damecykel",
+         "billede": "damecykel.svg",
+     },
+     {
+         "navn": "Herrecykel",
+         "billede": "herrecykel.svg",
+     },
+     {
+         "navn": "Barnecykel",
+         "billede": "barnecykel.svg",
+     },
+     {
+         "navn": "Unisexcykel",
+         "billede": "unisexcykel.svg",
+     },
+              ];
+ let filter = "alle";
+
+
+
+
+
+ function visRetterne() {
+
+     let liste = document.querySelector("#liste");
+     liste.innerHTML = "";
+
+     retter.forEach(ret => {
+         if (ret.navn == filter)
+             liste.innerHTML = `<img id="billede" src=${ret.billede} alt="ret">`
+
+     })
+
+ }
+ document.querySelectorAll(".filter").forEach(knap => {
+
+     knap.addEventListener("click", filtrering);
+ })
+
+ function filtrering() {
+     document.querySelectorAll(".filter").forEach(knap => {
+         knap.classList.remove("valgt");
+     });
+     this.classList.add("valgt");
+     document.querySelector("h1").textContent = this.textContent;
+     filter = this.getAttribute("data-hold");
+     console.log(filter);
+     visRetterne();
+ }
