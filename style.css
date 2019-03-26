@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #414B5A;
+}
+
+* {}
+
+
+
+/************************************Header*********************************/
+ .block {
+            transform: scale(1, 1);
+
+        }
+
+        .opacity {
+            opacity: 1;
+            transition: opacity 200ms ease-in-out 250ms;
+        }
+
+#burgermenu {
+    height: 1.5rem;
+    width: auto;
+   position: absolute;
+    left: 1rem;
+    top: 1.7rem;
+    z-index: 2;
+}
+
+#logo
+{
+    height: 5rem;
+    padding: 0;
+    padding-top: 0;
+    display: none;
+}
+#logomobil{
+       justify-content: center;
+      height: 5rem;
+    padding: 0;
+    padding-top: 0;
+
+}
+
+ul {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #28292C;
+    padding-bottom: 2rem;
+     opacity: 0;
+            transition: opacity 150ms ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+}
+
+li {
+    padding-top: 2rem;
+    text-align: center;
+}
+nav{
+         transform: scale(1, 0);
+            transform-origin: top;
+            transition: transform 400ms ease-in-out;
+}
+#mobilheader{
+    width: 100%;
+    height: 5rem;
+    background-color: #28292C;
+    text-align: center;
+
+
+}
+
+
+@media screen and (min-width: 700px) {
+    #logo{
+        display: block;
+    }
+    nav{ all: unset;}
+    ul {
+        all: unset;
+        display: grid;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: #28292C;
+        width: 100%;
+        height: 5rem;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+
+    }
+
+    li {
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+
+    #logo {
+        height: 5rem;
+        padding-top: 0;
+    }
+
+    #burgermenu {
+        display: none;
+    }
+}
+
+/*************************************Header********************************/
