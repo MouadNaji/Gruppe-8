@@ -153,14 +153,31 @@ nav {
     height: 41rem;
     width: 100%;
 
+
+}
+
+#splash video {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
 }
 
 /*************************************splash********************************/
 /*************************************Statistik*****************************/
-#klik{text-align: center;}
-figure {padding-top: 0;
-margin-top: 0;}
-.buttons{
+#klik {
+    text-align: center;
+}
+
+figure {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.buttons {
     align-content: center;
     text-align: center;
 }
@@ -170,6 +187,7 @@ margin-top: 0;}
     height: 20rem;
     background-color: white;
 }
+
 circle {
     fill: #414B5A;
     stroke: #8EFF25;
@@ -240,7 +258,8 @@ figcaption {
     width: 100%;
     background-color: white;
 }
-#goderaad{
+
+#goderaad {
     padding-top: 1rem;
     padding-bottom: 1rem;
 
@@ -258,7 +277,7 @@ figcaption {
     padding: 0;
 }
 
-.column22 img{
+.column22 img {
     width: 100vw;
     height: auto;
     padding-bottom: 0;
@@ -275,6 +294,7 @@ figcaption {
 .column22 {
     padding: 1px;
 }
+
 @media screen and (min-width: 700px) {
     .row {
         display: grid;
@@ -294,8 +314,11 @@ figcaption {
     }
 
 }
+
 @media screen and (min-width: 1200px) {
-    .column11 h2{padding-top: 1.3rem;}
+    .column11 h2 {
+        padding-top: 1.3rem;
+    }
 
     .row {
         display: grid;
@@ -309,7 +332,7 @@ figcaption {
 
     .column22 img {
         padding-left: 4rem;
-  padding-top: 3rem;
+        padding-top: 3rem;
         width: 40rem;
         height: 26rem;
         padding-bottom: 2rem;
@@ -319,9 +342,10 @@ figcaption {
 
 /*************************************gammelmand**************************/
 /*************************************gammeldame**************************/
-buttonen{
-   cursor: pointer;
+buttonen {
+    cursor: pointer;
 }
+
 #gammeldame {
     width: 100%;
     background-color: #414B5A;
@@ -369,7 +393,9 @@ h2 {
 }
 
 @media screen and (min-width: 1200px) {
-    .column1 h2{padding-top: 1.3rem;}
+    .column1 h2 {
+        padding-top: 1.3rem;
+    }
 
     .row {
         display: grid;
@@ -390,6 +416,7 @@ h2 {
         height: 26rem;
 
     }
+
     .column2 img {
         align-content: center;
         padding-top: 3rem;
@@ -405,38 +432,50 @@ h2 {
     min-height: 20rem;
     background-color: #28292C;
 }
-#valgafcykel h1{
+
+#valgafcykel h1 {
     color: white;
-    font-size:3rem;
+    font-size: 3rem;
     padding: 0;
     margin: 0;
     text-align: center;
     margin-bottom: 1rem;
 }
-#billede{
+
+#billede {
     align-content: center;
     text-align: center;
     width: 100vw;
     height: auto;
 }
 
-.filter:hover{background-color: white;
-color: #414B5A}
-.filter{
+.filter:hover {
+    background-color: white;
+    color: #414B5A
+}
+
+.filter {
     color: white;
     height: 5rem;
     width: auto;
     margin-bottom: 2rem;
     font-size: 0.9rem;
 }
-.valgt {background-color: white;
-color: #414B5A}
-.menu{align-content: center;
-text-align: center;}
-@media screen and (min-width: 1200px) {
-    .menu{}
 
-    #billede{
+.valgt {
+    background-color: white;
+    color: #414B5A
+}
+
+.menu {
+    align-content: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .menu {}
+
+    #billede {
         width: 60rem;
         margin-left: 15rem;
         margin-right: 15rem;
