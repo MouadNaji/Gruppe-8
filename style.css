@@ -127,7 +127,7 @@ nav {
         text-decoration: none;
         color: #fff;
         font-size: 1rem;
-
+        font-family: open sans;
     }
 
     li {
@@ -137,7 +137,8 @@ nav {
 
 
     #logo {
-        height: 5rem;
+        height: 3rem;
+        width: auto;
         padding-top: 0;
     }
 
@@ -170,6 +171,7 @@ margin-top: 0;}
     height: 20rem;
     background-color: white;
 }
+#statistik p h1{font-family: open sans;}
 circle {
     fill: #414B5A;
     stroke: #8EFF25;
