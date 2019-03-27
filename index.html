@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kampagne for rådet for sikker trafik. Sikkerhed i trafikken, Ældre trafikkanter ulykke - Sikkerheden i centrum på cykelstierne. Cykler, cykelhjelm vigtigt - lav indstigning </title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <meta content=“Vi har her på KEA arbejdet sammen med Rådet for Sikker Trafik om at skabe en kampagne der henvender sig til ældre personer i trafikken. Det ultimative mål er at nedsætte fatale ulykker hos personer på +65 i trafikken. Det har vi gjort ved at lave en kampagnefilm, interaktive diagram, mm. der oplyser og skaber opmærksomhed hos mennesker der begår sig i trafikken.” name=“description”>
+    <meta content="Vi har her på KEA arbejdet sammen med Rådet for Sikker Trafik om at skabe en kampagne der henvender sig til ældre personer i trafikken. Det ultimative mål er at nedsætte fatale ulykker hos personer på +65 i trafikken. Det har vi gjort ved at lave en kampagnefilm, interaktive diagram, mm. der oplyser og skaber opmærksomhed hos mennesker der begår sig i trafikken." name="description">
 </head>
 
 <body>
@@ -37,6 +36,8 @@
                 <source src="mobile%20splash.mp4" type="video/mp4">
 
             </video>
+            <source src="mobile%20splash.mp4" type="video/mp4" />
+
 
         </div>
 
@@ -49,6 +50,9 @@
 
 
             </video>
+
+            <video class="desktop_video" autoplay muted loop id="myVideo1">
+                <source src="BG_video.mp4" type="video/mp4" />
 
 
         </div>
@@ -127,31 +131,55 @@
         </div>
     </section>
     <section id="valgafcykel">
-        <div class="menu">
-
-            <button class="filter" data-hold="Damecykel">
-                Dame cykel
-            </button>
-            <button class="filter" data-hold="Herrecykel">
-                Herre cykel
-            </button>
-            <button class="filter" data-hold="Barnecykel">
-                Barne cykel
-            </button>
-            <button class="filter" data-hold="Unisexcykel">
-                Unisex cykel
-            </button>
-        </div>
         <h1>Vælg en cykel med den rette indstilling</h1>
-        <div id="beholder">
-            <div id="liste"></div>
-        </div>
+        <form action="#" method="post" class="demoForm" id="demoForm">
+
+            <fieldset>
+                <legend> Se hvilken cykel der passer bedst til dit behov </legend>
+                <p>Indtast dit og køn her</p>
+                <label class="left" for="mand">Mand</label>
+                <input type="checkbox" id="activeMand" /><br />
+
+
+                <label class="left" for="kvinde">Kvinde</label>
+                <input type="checkbox" id="activeKvinde" />
+                <hr />
+                <div id="active_sub_mand">
+                    <h3>Test hvilken cykel der passer bedst til din alder</h3>
+                    <p><span>Sæt flueben ved din alder</span>
+                        <label><input type="checkbox" name="cykel[]" value="ung" /> 7 - 17 år </label>
+                        <label><input type="checkbox" name="cykel[]" value="herre" /> 18 - 44 år </label>
+                        <label><input type="checkbox" name="cykel[]" value="herre" /> 45 - 64 år </label>
+                        <label><input type="checkbox" name="cykel[]" value="uni" /> 65 - 100 år </label>
+                    </p>
+                </div>
+
+                <div id="active_sub_kvinde">
+                    <h3>Test hvilken cykel der passer bedst til din alder</h3>
+                    <p><span>Sæt flueben ved din alder</span>
+                        <label><input type="checkbox" name="cykel[]" value="ung" /> 3 - 11 år </label>
+                        <label><input type="checkbox" name="cykel[]" value="dame" /> 12 - 44 år </label>
+                        <label><input type="checkbox" name="cykel[]" value="dame" /> 45 - 64 år </label>
+                        <label><input type="checkbox" name="cykel[]" value="uni" /> 65 - 100 år </label>
+                    </p>
+                </div>
+                <img id="herre" src="img/herre.png" />
+                <img id="dame" src="img/dame.png" />
+                <img id="ung" src="img/ung.png" />
+                <!--<img id="imgUnge" src="img/unge.png" />-->
+                <img id="uni" src="img/uni.png" />
+
+            </fieldset>
+        </form>
+
 
     </section>
 
 
     <script src="script.js"></script>
     <script src="toogleScript.js"></script>
+
+
 
 </body>
 
