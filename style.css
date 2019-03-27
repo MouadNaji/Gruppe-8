@@ -166,8 +166,6 @@ nav {
 /*************************************Header********************************/
 /*************************************splash********************************/
 
-
-<<<<<<< HEAD
 @media screen and (max-width: 1200px) {
     #splash {
         display: none;
@@ -177,22 +175,18 @@ nav {
         width: 100%;
         height: auto;
     }
-=======
->>>>>>> origin/master
+
 }
 
 
 @media screen and (min-width: 1200px) {
     #splash {
         background-color: rgba(0, 0, 0, 0.14);
-        height: 41rem;
-
-        <<<<<<< HEAD <<<<<<< HEAD============== > > > > > > > origin/master
+        height: 44rem;
     }
 
     #splash video {
 
-<<<<<<< HEAD
         position: absolute;
         right: 0;
         top: 0;
@@ -200,7 +194,6 @@ nav {
         height: auto;
         z-index: -100;
 
-        > > > > > > > origin/master
     }
 
 
@@ -208,8 +201,7 @@ nav {
     #mobile_splash {
         display: none;
     }
-=======
->>>>>>> origin/master
+
 }
 
 
@@ -294,13 +286,10 @@ figcaption {
     font-weight: bold;
     text-align: center;
     color: #414B5A;
-<<<<<<< HEAD
-    padding-top: 0;
-=======
-    padding-top: 3rem;
+    <<<<<<< HEAD padding-top: 0;
+    =======padding-top: 3rem;
     font-family: Open Sans;
->>>>>>> origin/master
-
+    > > > > > > > origin/master
 }
 
 
