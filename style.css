@@ -162,7 +162,7 @@ nav {
     height: 41rem;
     width: 100%;
 
-    <<<<<<< HEAD <<<<<<< HEAD============== > > > > > > > origin/master
+
 }
 
 #splash video {
@@ -174,13 +174,13 @@ nav {
     min-height: 100%;
     z-index: -1;
 
-    > > > > > > > origin/master
 }
 
 /*************************************splash********************************/
 /*************************************Statistik*****************************/
 #klik {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 figure {
@@ -195,13 +195,10 @@ figure {
 
 #statistik {
     width: 100%;
-    height: 20rem;
     background-color: white;
 }
 
-#statistik p h1 {
-    font-family: open sans;
-}
+
 
 circle {
     fill: #414B5A;
@@ -226,7 +223,7 @@ svg {
 
 button {
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 20px;
     cursor: pointer;
     -webkit-appearance: none;
     border: none;
@@ -241,6 +238,7 @@ button {
 
 button:last-of-type {
     margin-right: 0;
+
 }
 
 button.active {
@@ -255,7 +253,9 @@ figcaption {
     font-weight: bold;
     text-align: center;
     color: #414B5A;
-    padding-top: 0;
+    padding-top: 3rem;
+    font-family: Open Sans;
+
 }
 
 
@@ -469,6 +469,8 @@ h2 {
     width: 100%;
     min-height: 20rem;
     background-color: #28292C;
+    padding: 0;
+    margin: 0;
 }
 
 #valgafcykel h1 {
