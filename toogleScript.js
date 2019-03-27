@@ -40,7 +40,7 @@
     var cykel = document.forms['demoForm'].elements['cykel[]'];
 
     // number of checkboxes in group
-    //alert( cykel.length ); // 4
+    //alert( cykel.length ); // 5
 
     // value of 4th checkbox in node list
     //alert( cykel[3].value ); // swimming
