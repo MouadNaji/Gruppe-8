@@ -1,4 +1,68 @@
-body {
+        #active_sub_mand, #active_sub_kvinde {
+            display: none;
+        }
+
+        div#active_sub p {
+            margin-bottom: .2em;
+        }
+
+        form.demoForm {
+            margin: 2em 0 3em;
+        }
+
+        form.demoForm input {
+            vertical-align: bottom;
+        }
+
+        #dame {
+            max-width: 300px;
+            height: auto;
+            float: left !important;
+            display : none;
+        }
+
+        #herre {
+            max-width: 300px;
+            height: auto;
+            display : none;
+            float: left !important;
+            clear: left;
+        }
+
+        #ung {
+            max-width: 300px;
+            height: auto;
+            display : none;
+            float: left !important;
+        }
+
+        #imgUnge {
+            max-width: 300px;
+            height: auto;
+            display : none;
+            float: left !important;
+        }
+
+        #uni {
+            max-width: 300px;
+            height: auto;
+            display : none;
+            float: left !important;
+        }
+
+        label {
+            float: left;
+            margin: 0 1em;
+        }
+
+        span {
+            float: left;
+
+            margin: 0 1em;
+        }
+        fieldset{
+    color: #FFF;
+}body {
     padding: 0;
     margin: 0;
     background-color: #414B5A;
@@ -584,3 +648,68 @@ h2 {
 }
 
 /*************************************valgafcykel*************************/
+        #active_sub_mand, #active_sub_kvinde {
+            display: none;
+        }
+
+        div#active_sub p {
+            margin-bottom: .2em;
+        }
+
+        form.demoForm {
+            margin: 2em 0 3em;
+        }
+
+        form.demoForm input {
+            vertical-align: bottom;
+        }
+
+        #dame {
+            max-width: 300px;
+            height: auto;
+            float: left !important;
+            display : none;
+        }
+
+        #herre {
+            max-width: 300px;
+            height: auto;
+            display : none;
+            float: left !important;
+            clear: left;
+        }
+
+        #ung {
+            max-width: 300px;
+            height: auto;
+            display : none;
+            float: left !important;
+        }
+
+        #imgUnge {
+            max-width: 300px;
+            height: auto;
+            display : none;
+            float: left !important;
+        }
+
+        #uni {
+            max-width: 300px;
+            height: auto;
+            display : none;
+            float: left !important;
+        }
+
+        label {
+            float: left;
+            margin: 0 1em;
+        }
+
+        span {
+            float: left;
+
+            margin: 0 1em;
+        }
+        fieldset{
+    color: #FFF;
+}
