@@ -106,7 +106,7 @@ nav {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
 
     #mobilheader {
         display: none;
@@ -167,6 +167,7 @@ nav {
 /*************************************splash********************************/
 
 
+<<<<<<< HEAD
 @media screen and (max-width: 1200px) {
     #splash {
         display: none;
@@ -176,6 +177,8 @@ nav {
         width: 100%;
         height: auto;
     }
+=======
+>>>>>>> origin/master
 }
 
 
@@ -189,6 +192,7 @@ nav {
 
     #splash video {
 
+<<<<<<< HEAD
         position: absolute;
         right: 0;
         top: 0;
@@ -204,6 +208,8 @@ nav {
     #mobile_splash {
         display: none;
     }
+=======
+>>>>>>> origin/master
 }
 
 
@@ -212,6 +218,7 @@ nav {
 /*************************************Statistik*****************************/
 #klik {
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 figure {
@@ -226,14 +233,13 @@ figure {
 
 #statistik {
     width: 100%;
+
     height: auto;
-    height: 20rem;
+
     background-color: white;
 }
 
-#statistik p h1 {
-    font-family: open sans;
-}
+
 
 circle {
     fill: #414B5A;
@@ -258,7 +264,7 @@ svg {
 
 button {
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 20px;
     cursor: pointer;
     -webkit-appearance: none;
     border: none;
@@ -273,6 +279,7 @@ button {
 
 button:last-of-type {
     margin-right: 0;
+
 }
 
 button.active {
@@ -287,7 +294,12 @@ figcaption {
     font-weight: bold;
     text-align: center;
     color: #414B5A;
+<<<<<<< HEAD
     padding-top: 0;
+=======
+    padding-top: 3rem;
+    font-family: Open Sans;
+>>>>>>> origin/master
 
 }
 
@@ -317,9 +329,17 @@ figcaption {
 }
 
 #video p {
-    width: 50vw;
-    margin: auto;
-    padding: 50px 0;
+    text-align: left;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+    #video p {
+        width: 50vw;
+        margin: auto;
+        padding: 50px 0;
+        text-align: left;
+    }
 }
 
 /*test*/
@@ -503,6 +523,8 @@ h2 {
     width: 100%;
     min-height: 20rem;
     background-color: #28292C;
+    padding: 0;
+    margin: 0;
 }
 
 #valgafcykel h1 {
