@@ -106,7 +106,7 @@ nav {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
 
     #mobilheader {
         display: none;
@@ -188,7 +188,7 @@ nav {
 /*************************************Statistik*****************************/
 #klik {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 figure {
@@ -203,11 +203,9 @@ figure {
 
 #statistik {
     width: 100%;
-<<<<<<< HEAD
-=======
+
     height: auto;
-    height: 20rem;
->>>>>>> origin/master
+
     background-color: white;
 }
 
@@ -297,9 +295,17 @@ figcaption {
 }
 
 #video p {
-    width: 50vw;
-    margin: auto;
-    padding: 50px 0;
+    text-align: left;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+    #video p {
+        width: 50vw;
+        margin: auto;
+        padding: 50px 0;
+        text-align: left;
+    }
 }
 
 /*test*/
