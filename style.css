@@ -153,10 +153,25 @@ nav {
 /*************************************Header********************************/
 /*************************************splash********************************/
 #splash {
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.14);
     height: 41rem;
     width: 100%;
 
+<<<<<<< HEAD
+=======
+
+}
+
+#splash video {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+
+>>>>>>> origin/master
 }
 
 /*************************************splash********************************/
